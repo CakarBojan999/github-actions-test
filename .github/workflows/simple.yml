@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: eccho a string
-        run: echo "Hello world"
+        run: eecho "Hello world"
       - name: multirun script
         run: |
           node -v
