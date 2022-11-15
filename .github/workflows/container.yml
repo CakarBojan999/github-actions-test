@@ -28,7 +28,7 @@ jobs:
           args: "Some string"
 
       - name: send a slack massage
-        uses: docker://technospohos/slack-notify
+        uses: docker://technosophos/slack-notify
         env: 
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK}}
           SLACK_MASSAGE: "CAOOO"
