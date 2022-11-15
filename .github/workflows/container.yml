@@ -30,7 +30,7 @@ jobs:
       - name: send a slack massage
         uses: docker://technospohos/slack-notify
         env: 
-          SLACK_WEBHOOK: ${{ secrers.SLACK_WEBHOOK}}
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK}}
           SLACK_MASSAGE: "CAOOO"
 
 
